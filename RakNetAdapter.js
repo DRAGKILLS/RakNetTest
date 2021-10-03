@@ -15,7 +15,7 @@ class RakNetAdapter {
             .setName("RakNet")
             .setProtocol(465)
             .setVersion("1.17.32")
-            .setOnlinePlayers(0) // update players ++ and - if u will make software
+            .setOnlinePlayers(0) // update players +1 and -1 if u will make software
             .setMaxPlayers(10)// u can change
             .setServerId(1)// change with +1
             .setGamemode("Creative")
