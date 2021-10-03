@@ -3,8 +3,8 @@
     "name": "DRAGKILLS"
   },
   "dependencies": {
-    "pocketnode-binarystream": "git+https://github.com/BlueBirdMC/NodeBinaryStream.git",
-    "dragkills-raknet": "git+https://github.com/BlueBirdMC/RakNet.git"
+    "bluebirdmc-binarystream": "git+https://github.com/BlueBirdMC/NodeBinaryStream.git",
+    "bluebirdmc-raknet": "git+https://github.com/BlueBirdMC/RakNet.git"
   },
   "deprecated": false,
   "description": "raknet",
