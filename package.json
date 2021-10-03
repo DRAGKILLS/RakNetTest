@@ -19,8 +19,7 @@
     "/"
   ],
   "_resolved": "git+https://github.com/DRAGKILLS/RakNetTest.git",
-  "_spec": "raknet@git+https://github.com/PocketNode/RakNet.git",
-  "_where": "",
+  "_spec": "raknet@git+https://github.com/DRAGKILLS/RakNetTest.git",
   "author": {
     "name": ""
   },
