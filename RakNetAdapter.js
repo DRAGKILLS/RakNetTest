@@ -23,6 +23,7 @@ class RakNetAdapter {
     }
 
     sendPacket(player, packet, needACK, immediate){
+        // do for send packets
         this.logger.debug("Sending "+packet.getName()+": " + packet.buffer)
     }
 
@@ -48,7 +49,8 @@ class RakNetAdapter {
             case "openSession":
                 // Do Things
                 break;
-            case "closeSession":               // Do Things
+            case "closeSession":
+                // Do Things
                 break;
         }
     }
