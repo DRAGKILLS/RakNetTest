@@ -1,0 +1,54 @@
+{
+  "_from": "git+https://github.com/PocketNode/RakNet.git",
+  "_id": "raknet@1.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/raknet",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "raknet@git+https://github.com/PocketNode/RakNet.git",
+    "name": "raknet",
+    "escapedName": "raknet",
+    "rawSpec": "git+https://github.com/PocketNode/RakNet.git",
+    "saveSpec": "git+https://github.com/PocketNode/RakNet.git",
+    "fetchSpec": "https://github.com/PocketNode/RakNet.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/PocketNode/RakNet.git#f360f66b6439bb2db4ef10cd5a63a3b201a83937",
+  "_spec": "raknet@git+https://github.com/PocketNode/RakNet.git",
+  "_where": "C:\\Users\\User\\Downloads\\PocketNode-master",
+  "author": {
+    "name": "eDroid"
+  },
+  "bugs": {
+    "url": "https://github.com/PocketNode/RakNet/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "pocketnode-binarystream": "git+https://github.com/PocketNode/PocketNode-BinaryStream.git",
+    "dragkills-raknet": "git+https://github.com/DRAGKILLS/RakNet.git"
+  },
+  "deprecated": false,
+  "description": "raknet",
+  "homepage": "https://github.com/PocketNode/RakNet#readme",
+  "keywords": [
+    "raknet",
+    "raknet-node",
+    "pocketnode"
+  ],
+  "license": "GPL-3.0",
+  "main": "node_modules/dragkills-raknet/server/RakNetServer.js",
+  "name": "raknet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DRAGKILLS/RakNet.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
