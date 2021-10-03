@@ -10,12 +10,13 @@ class RakNetAdapter {
     constructor(server){
         this.server = server
         this.raknet = new RakNetServer(19132, new Logger())
+	this.playerCount = 0
         this.raknet.getServerName()
             .setMotd("RakNet Test")
             .setName("RakNet")
             .setProtocol(465)
             .setVersion("1.17.32")
-            .setOnlinePlayers(0) // update players +1 and -1 if u will make software
+            .setOnlinePlayers(this.playerCount) // update players +1 and -1 if u will make software
             .setMaxPlayers(10)// u can change
             .setServerId(1)// change with +1
             .setGamemode("Creative")
@@ -47,10 +48,12 @@ class RakNetAdapter {
     _handleIncomingMessage(purpose, data){
         switch(purpose){
             case "openSession":
-                // Do Things
+		//Do Things
+                this.playerCount += 1;
                 break;
             case "closeSession":
-                // Do Things
+		// Do Things
+                this.playerCount -= 1;
                 break;
         }
     }
