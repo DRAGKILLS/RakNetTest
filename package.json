@@ -1,51 +1,16 @@
 {
-  "_from": "git+https://github.com/DRAGKILLS/RakNetTest.git",
-  "_id": "raknet@1.0.1",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/raknet",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "raknet@git+https://github.com/DRAGKILLS/RakNetTest.git",
-    "name": "raknet",
-    "escapedName": "raknet",
-    "rawSpec": "git+https://github.com/PocketNode/RakNet.git",
-    "saveSpec": "git+https://github.com/PocketNode/RakNet.git",
-    "fetchSpec": "https://github.com/PocketNode/RakNet.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/DRAGKILLS/RakNetTest.git",
-  "_spec": "raknet@git+https://github.com/DRAGKILLS/RakNetTest.git",
   "author": {
-    "name": ""
+    "name": "DRAGKILLS"
   },
-  "bugs": {
-    "url": "https://github.com/DRAGKILLS/RakNetTest/issues"
-  },
-  "bundleDependencies": false,
   "dependencies": {
-    "pocketnode-binarystream": "git+https://github.com/PocketNode/PocketNode-BinaryStream.git",
-    "dragkills-raknet": "git+https://github.com/DRAGKILLS/RakNet.git"
+    "pocketnode-binarystream": "git+https://github.com/BlueBirdMC/NodeBinaryStream.git",
+    "dragkills-raknet": "git+https://github.com/BlueBirdMC/RakNet.git"
   },
   "deprecated": false,
   "description": "raknet",
-  "homepage": "https://github.com/DRAGKILLS/RakNetTest#readme",
-  "keywords": [
-    "raknet",
-    "raknet-node",
-    "pocketnode"
-  ],
   "license": "GPL-3.0",
-  "main": "node_modules/dragkills-raknet/server/RakNetServer.js",
-  "name": "raknet",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DRAGKILLS/RakNet.git"
-  },
+  "main": "node_modules/bluebirdmc-raknet/server/RakNetServer.js",
+  "name": "raknettest",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
