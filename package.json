@@ -1,18 +1,16 @@
 {
-  "author": {
-    "name": "DRAGKILLS"
+  "name": "raknettest",
+  "description": "raknet test",
+  "author": "DRAGKILLS",
+  "license": "MIT",
+  "main": "node_modules/bluebirdmc-raknet/server/RakNetServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "version": "1.0.1",
   "dependencies": {
      "bluebirdmc-binarystream": "git+https://github.com/BlueBirdMC/NodeBinaryStream.git",
     "bluebirdmc-raknet": "git+https://github.com/BlueBirdMC/RakNet.git",
     "raknet": "^1.8.0"
   },
-  "description": "raknet test",
-  "license": "MIT",
-  "main": "node_modules/bluebirdmc-raknet/server/RakNetServer.js",
-  "name": "raknettest",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.1"
 }
