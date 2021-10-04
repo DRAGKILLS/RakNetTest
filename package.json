@@ -3,12 +3,12 @@
     "name": "DRAGKILLS"
   },
   "dependencies": {
-    "bluebirdmc-binarystream": "https://github.com/BlueBirdMC/NodeBinaryStream.git",
-    "bluebirdmc-raknet": "https://github.com/BlueBirdMC/RakNet.git"
+     "bluebirdmc-binarystream": "git+https://github.com/BlueBirdMC/NodeBinaryStream.git",
+    "bluebirdmc-raknet": "git+https://github.com/BlueBirdMC/RakNet.git",
+    "raknet": "^1.8.0"
   },
-  "deprecated": false,
-  "description": "raknet",
-  "license": "GPL-3.0",
+  "description": "raknet test",
+  "license": "MIT",
   "main": "node_modules/bluebirdmc-raknet/server/RakNetServer.js",
   "name": "raknettest",
   "scripts": {
