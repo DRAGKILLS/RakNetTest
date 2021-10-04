@@ -1,4 +1,4 @@
-const RakNetServer = (require("../RakNet") ?? require("raknet"));
+const RakNetServer = (require("bluebirdmc-raknet") ?? require("raknet"));
 
 class Logger {
     debug(message) {
